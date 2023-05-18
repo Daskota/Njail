@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+</head>
+<body>
+    <div id="jail-container">
+        <h1 class="title">JAIL</h1>
+        <input type="text" placeholder="ID du joueur" id="input-id">
+        <div class="id-state"></div>
+        
+        <input type="text" placeholder="Temps en secondes !" id="input-time">
+        <div class="time-state"></div>
+        <input type="text" placeholder="Raison du jail" id="input-reason">
+        <div class="reason-state"></div>
+        <button id="two-min">2 MIN</button>
+        <button id="five-min">5 MIN</button>
+        <button id="trente-min">30 MIN</button>
+        <button id="un-min">1H</button>
+        <button id="jail-player">Envoyer le joueur en jail</button>
+        <button id="close-jail"><i class="fa fa-times" id="icon"></i></button>
+    </div>
+
+    <div id="jail-hud">
+        <div class="font-time">
+            <img src="img/warn.png" class="warnicon">
+            <h1 class="jailtimetxt">TEMPS RESTANT</h1>
+            <span class="jailtime"></span>
+        </div>
+
+        <div class="jail-progress">
+            <div class="value-jail"></div>
+        </div>
+    </div>
+
+    <div id="jail-pannel">
+        <img src="img/logo.png" class="jail-logo">
+        <h1 class="player-injailtxt">Joueur actuellement en jail :</h1>
+        <span class="player-injail"></span>
+        <h1 class="playerranktxt">Rank :</h1>
+        <span class="playerrank"></span>
+        <hr class="line">
+        <div id="player-list">
+
+        </div>
+        <div id="jail-reason">
+            <h1 class="jail-reasontitle">Raison du jail :</h1>
+        </div>
+        <button id="close-reason"><i class="fa fa-times" id="icon"></i></button>
+        <button id="close-pannel"><i class="fa fa-times" id="icon"></i></button>
+    </div>
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>

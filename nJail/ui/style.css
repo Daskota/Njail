@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body{}
+
+#jail-container {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    width: 400px;
+    height: 550px;
+    background-color: #000000;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+#jail-container .title {
+    position: absolute;
+    text-align: center;
+    left: 36%;
+    top: -2%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+#jail-container #input-id {
+    position: absolute;
+    text-align: center;
+    top: 18%;
+    left: 12.5%;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2b2c31;
+    box-shadow: 0 0 10px #000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+#jail-container .id-state {
+    position: absolute;
+    text-align: center;
+    top: 22%;
+    left: 8.7%;
+    width: 30px;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    box-shadow: #1100ff 0px 0px 6px;
+    transform:rotate(90deg);
+    transition: 0.3s;
+}
+
+#jail-container #input-time {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 12.5%;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2b2c31;
+    box-shadow: 0 0 10px #000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+#jail-container .time-state {
+    position: absolute;
+    text-align: center;
+    top: 44.4%;
+    left: 8.7%;
+    width: 30px;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    box-shadow: #1100ff 0px 0px 6px;
+    transform:rotate(90deg);
+    transition: 0.3s;
+}
+
+#jail-container #input-reason {
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 12.5%;
+    width: 300px;
+    height: 90px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2b2c31;
+    box-shadow: 0 0 10px #000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+#jail-container .reason-state {
+    position: absolute;
+    text-align: center;
+    top: 63.3%;
+    left: 6.2%;
+    width: 50px;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    box-shadow: #1100ff 0px 0px 6px;
+    transform:rotate(90deg);
+    transition: 0.3s;
+}
+
+#two-min {
+    position: absolute;
+    top: 29%;
+    left: 12.5%;
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#five-min {
+    position: absolute;
+    top: 29%;
+    left: 32.5%;
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#trente-min {
+    position: absolute;
+    top: 29%;
+    left: 52.5%;
+    width: 71px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#un-min {
+    position: absolute;
+    top: 29%;
+    left: 72.5%;
+    width: 60px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#two-min:hover {
+    background-color: #0c00ad;
+    box-shadow: #1100ff 0px 0px 6px;
+    transition: 0.4s;
+}
+
+#five-min:hover {
+    background-color: #0c00ad;
+    box-shadow: #1100ff 0px 0px 6px;
+    transition: 0.4s;
+}
+
+#trente-min:hover {
+    background-color: #0c00ad;
+    box-shadow: #1100ff 0px 0px 6px;
+    transition: 0.4s;
+}
+
+#un-min:hover {
+    background-color: #0c00ad;
+    box-shadow: #1100ff 0px 0px 6px;
+    transition: 0.4s;
+}
+
+#jail-player {
+    position: absolute;
+    top: 80%;
+    left: 12.5%;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#jail-player:hover {
+    background-color: #0c00ad;
+    box-shadow: #1100ff 0px 0px 6px;
+    transition: 0.4s;
+}
+
+
+#close-jail {
+    position: absolute;
+    top: 105%;
+    left: 45%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: #ff0000 0px 0px 6px;
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.7s;
+}
+
+#close-jail #icon {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.7s;
+}
+
+#close-jail:hover #icon {
+    transform:rotate(360deg);
+    transition: 0.7s;
+}
+
+.font-time {
+    position: absolute;
+    top: 85%;
+    left: 39%;
+    width: 370px;
+    height: 70px;
+    background-color: #990b0b;
+    box-shadow: #ff0000 0px 0px 150px;
+    border-radius: 50px;
+    opacity: 1;
+    transition: 1s;
+}
+
+.font-time .jailtimetxt {
+    position: absolute;
+    text-align: left;
+    left: 15%;
+    top: 2%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.font-time .jailtime {
+    position: absolute;
+    text-align: left;
+    left: 54.2%;
+    top: 15%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.font-time .warnicon {
+    position: absolute;
+    left: 5%;
+    top: 27%;
+    width: 30px;
+    height: 30px;
+    animation: blink 1.6s infinite;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 0.1; 
+    }
+  }
+
+#jail-hud .jail-progress {
+    position: absolute;
+    top: 82%;
+    left: 48.2%;
+    height: 270px;
+    width: 10px;
+    transform: rotate(-90deg);
+    background-color: rgba(44, 44, 44, 0.212);
+    border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+    transition-duration: 1s;
+    transition: 1s;
+}
+
+.value-jail {
+    background-color: #f8a711;
+    width: 10px;
+    height: 270px;
+    border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+    box-shadow: #f8a711 0px 0px 6px;
+    transition-duration: 1s;
+}
+
+#jail-pannel {
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    width: 800px;
+    height: 450px;
+    background-color: #000000;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.jail-logo {
+    position: absolute;
+    left: 46%;
+    top: 7%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.line {
+    position: absolute;
+    left: 6%;
+    top: 25%;
+    width: 700px;
+    height: 50px;
+}
+
+.player-injailtxt {
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    top: 19%;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.player-injail {
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    left: 28.1%;
+    top: 21.5%;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.playerranktxt {
+    position: absolute;
+    text-align: left;
+    left: 75%;
+    top: 19%;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.playerrank {
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    left: 80.5%;
+    top: 21.5%;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+#player-list {
+    position: absolute;
+    left: 6%;
+    top: 32%;;
+    width: 700px;
+    height: 300px;
+    overflow: auto;
+}
+
+.player-list {
+    position: relative;
+    display: inline-block;
+    left: 0%;
+    top: 0%;
+    width: 700px;
+    height: 60px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.profil-img {
+    position: absolute;
+    left: 2%;
+    top: 25%;;
+    width: 30px;
+    height: 30px;
+}
+
+.player-name {
+    position: absolute;
+    text-align: left;
+    left: 6.5%;
+    top: -5%;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.time-img {
+    position: absolute;
+    left: 30%;
+    top: 25%;;
+    width: 30px;
+    height: 30px;
+}
+
+.time {
+    position: absolute;
+    text-align: left;
+    left: 34.5%;
+    top: -5%;
+    font-size: 20px;
+  
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+
+.percentage-img {
+    position: absolute;
+    left: 55%;
+    top: 25%;;
+    width: 30px;
+    height: 30px;
+}
+
+.percentage {
+    position: absolute;
+    text-align: left;
+    left: 59.5%;
+    top: -5%;
+    font-size: 20px;
+  
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.unjail-btn {
+    position: absolute;
+    left: 85%;
+    top: 25%;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    background-color: #262629;
+     border-color: #3a3939;
+     border: 1px solid;
+    transition: 0.4s;
+}
+
+.unjail-btn:hover {
+    color: rgb(255, 0, 0);
+    transition: 0.4s;
+}
+
+.raison-btn {
+    position: absolute;
+    left: 72%;
+    top: 25%;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    background-color: #262629;
+     border-color: #3a3939;
+     border: 1px solid;
+    transition: 0.4s;
+}
+
+.raison-btn:hover {
+    color: rgb(0, 0, 255);
+    transition: 0.4s;
+}
+
+#jail-reason {
+    position: absolute;
+    top: 0%;
+    left: 101%;
+    width: 300px;
+    height: 250px;
+    background-color: #000000;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+.jail-reasontitle {
+    position: absolute;
+    text-align: left;
+    left: 6%;
+    top: 2%;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-family: 'Anek Malayalam', sans-serif;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+#input-reason2 {
+    position: absolute;
+    text-align: center;
+    overflow-wrap: break-word;
+    top: 25%;
+    left: 8%;
+    width: 250px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2b2c31;
+    box-shadow: 0 0 10px #000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    transition: 0.3s;
+}
+
+.validtxt-btn {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1100ff;
+    font-size: 17px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.validtxt-btn:hover {
+    background-color: #0c00ad;
+    box-shadow: #1100ff 0px 0px 6px;
+    transition: 0.4s;
+}
+
+#close-reason {
+    position: absolute;
+    top: 51.5%;
+    left: 117.5%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: #ff0000 0px 0px 6px;
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.7s;
+}
+
+#close-reason #icon {
+    position: absolute;
+    top: 8px;
+    left: 11px;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.7s;
+}
+
+#close-reason:hover #icon {
+    transform:rotate(360deg);
+    transition: 0.7s;
+}
+
+#close-pannel {
+    position: absolute;
+    top: 103%;
+    left: 48%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: #ff0000 0px 0px 6px;
+    font-size: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #fff;
+    transition: 0.7s;
+}
+
+#close-pannel #icon {
+    position: absolute;
+    top: 8px;
+    left: 10.8px;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.7s;
+}
+
+#close-pannel:hover #icon {
+    transform:rotate(360deg);
+    transition: 0.7s;
+}
